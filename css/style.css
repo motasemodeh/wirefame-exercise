@@ -1,0 +1,123 @@
+header
+{
+    background-color: #444444;
+    color: white;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+.header
+{
+    max-width: 60.125rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+main
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: min-content;
+    font-size: 1.3rem;
+}
+
+img.logo
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+ 
+}
+
+nav
+{
+
+    top: 50%;
+    left: 56%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+}
+
+ul
+{
+
+    display: flex;
+    
+}
+li
+{
+
+    margin: 25px;
+    font-size: 1.1rem;
+
+}
+
+.main-section
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+section
+{
+    margin-top: 30px;
+}
+
+.threeimages
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+
+}
+section.threeimages img
+{
+    margin: 13px;
+}
+.leastsection{
+    display: flex;
+}
+.description
+{
+    max-width: 25rem;
+    margin: auto;
+}
+
+.leastsection img{
+ margin-left: 13px;   
+}
+
+.button
+{
+    font-family: Arial;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 4px 10px 4px 10px;
+    
+} 
+.article{margin-bottom: 15px;}
+
+footer
+{
+
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 15px;
+    background-color: #444444;
+    bottom: 0;
+    height: 70px;
+    margin-top: 30px;
+
+}
